@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CodeGuardian AI – Predictive Security Intelligence System
 
 CodeGuardian AI is an advanced, full-stack predictive security intelligence platform. Powered by AI and Retrieval-Augmented Generation (RAG), it deeply analyzes project dependencies to identify vulnerabilities, predict future risks, suggest fixes, and simulate attack scenarios.
@@ -60,3 +61,6 @@ lodash==4.17.20
 ```
 
 Click **Initiate Neural Scan** to watch the RAG pipeline analyze the embedded mock dataset and deliver intelligent vulnerability scores!
+=======
+# codeguardian-ai
+>>>>>>> 00bf331781d52e07b73ee446a8c8c97c1a5c9dd6
