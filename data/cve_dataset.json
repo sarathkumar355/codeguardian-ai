@@ -1,0 +1,65 @@
+[
+  {
+    "cve_id": "CVE-2019-1010083",
+    "package": "flask",
+    "versions_affected": "<1.0",
+    "description": "Flask before 1.0 is vulnerable to an issue where unexpected memory usage can occur when handling unparsed JSON, leading to a Denial of Service (DoS).",
+    "attack_vector": "Network",
+    "severity": "High",
+    "base_score": 7.5
+  },
+  {
+    "cve_id": "CVE-2018-1000656",
+    "package": "flask",
+    "versions_affected": "<0.12.3",
+    "description": "Flask version 0.12.2 and earlier contains a Resource injection vulnerability in the application logger that can result in log injection.",
+    "attack_vector": "Network",
+    "severity": "Medium",
+    "base_score": 5.3
+  },
+  {
+    "cve_id": "CVE-2023-30861",
+    "package": "flask",
+    "versions_affected": "<2.3.2",
+    "description": "Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches `Set-Cookie` headers, it may send one client's `session` cookie to other clients.",
+    "attack_vector": "Network",
+    "severity": "High",
+    "base_score": 7.5
+  },
+  {
+    "cve_id": "CVE-2021-33503",
+    "package": "urllib3",
+    "versions_affected": "<1.26.5",
+    "description": "urllib3 before 1.26.5 has an issue where an application could raise a TypeError if a server responds with an unexpected error payload.",
+    "attack_vector": "Network",
+    "severity": "Medium",
+    "base_score": 5.3
+  },
+  {
+    "cve_id": "CVE-2024-XXXX1",
+    "package": "requests",
+    "versions_affected": "<2.31.0",
+    "description": "Requests allows leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint.",
+    "attack_vector": "Network",
+    "severity": "Medium",
+    "base_score": 6.1
+  },
+  {
+    "cve_id": "CVE-2021-23337",
+    "package": "lodash",
+    "versions_affected": "<4.17.21",
+    "description": "lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.",
+    "attack_vector": "Network",
+    "severity": "High",
+    "base_score": 7.8
+  },
+  {
+    "cve_id": "CVE-2023-26159",
+    "package": "react",
+    "versions_affected": "<18.2.0",
+    "description": "React contains a Cross-Site Scripting (XSS) vulnerability when user-supplied input is not properly sanitized before being rendered.",
+    "attack_vector": "Network",
+    "severity": "Medium",
+    "base_score": 6.1
+  }
+]
